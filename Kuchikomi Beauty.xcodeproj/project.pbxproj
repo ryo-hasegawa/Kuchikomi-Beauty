@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1380922134B86000AD7FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1380902134B86000AD7FD4 /* Main.storyboard */; };
+		0DD0D6B421343A92003A1575 /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B321343A92003A1575 /* BagViewController.swift */; };
+		0DD0D6B621343AA0003A1575 /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B521343AA0003A1575 /* AcountViewController.swift */; };
+		0DD0D6B821343ABA003A1575 /* PostCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B721343ABA003A1575 /* PostCreateViewController.swift */; };
+		0DD0D6BA21343ACB003A1575 /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B921343ACB003A1575 /* LikesViewController.swift */; };
 		0DD15E18213186D900B2F5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD15E17213186D900B2F5B4 /* AppDelegate.swift */; };
 		0DD15E1A213186D900B2F5B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD15E19213186D900B2F5B4 /* ViewController.swift */; };
-		0DD15E1D213186D900B2F5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD15E1B213186D900B2F5B4 /* Main.storyboard */; };
 		0DD15E1F213186DB00B2F5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD15E1E213186DB00B2F5B4 /* Assets.xcassets */; };
 		0DD15E22213186DB00B2F5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD15E20213186DB00B2F5B4 /* LaunchScreen.storyboard */; };
 		0DD15E2D213186DB00B2F5B4 /* Kuchikomi_BeautyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD15E2C213186DB00B2F5B4 /* Kuchikomi_BeautyTests.swift */; };
 		0DD15E38213186DB00B2F5B4 /* Kuchikomi_BeautyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD15E37213186DB00B2F5B4 /* Kuchikomi_BeautyUITests.swift */; };
+		0DF0AB4B21318BBB00622AF2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AB4A21318BBB00622AF2 /* HomeViewController.swift */; };
+		0DF0AB4D21318E9100622AF2 /* StylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AB4C21318E9100622AF2 /* StylistViewController.swift */; };
+		0DF0AB4F21318F0800622AF2 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AB4E21318F0800622AF2 /* ItemViewController.swift */; };
+		0DF0AB5121318F4E00622AF2 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AB5021318F4E00622AF2 /* TimelineViewController.swift */; };
+		0DF0AB5321318F9F00622AF2 /* PickupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0AB5221318F9F00622AF2 /* PickupViewController.swift */; };
+		91FFE6C7AD8BB788280875EC /* Pods_Kuchikomi_Beauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD13FEA05723A87E504B7A56 /* Pods_Kuchikomi_Beauty.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D1380912134B86000AD7FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DD0D6B321343A92003A1575 /* BagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
+		0DD0D6B521343AA0003A1575 /* AcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
+		0DD0D6B721343ABA003A1575 /* PostCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateViewController.swift; sourceTree = "<group>"; };
+		0DD0D6B921343ACB003A1575 /* LikesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
 		0DD15E14213186D900B2F5B4 /* Kuchikomi Beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kuchikomi Beauty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD15E17213186D900B2F5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DD15E19213186D900B2F5B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DD15E1C213186D900B2F5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD15E1E213186DB00B2F5B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD15E21213186DB00B2F5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD15E23213186DB00B2F5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		0DD15E33213186DB00B2F5B4 /* Kuchikomi BeautyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kuchikomi BeautyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD15E37213186DB00B2F5B4 /* Kuchikomi_BeautyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kuchikomi_BeautyUITests.swift; sourceTree = "<group>"; };
 		0DD15E39213186DB00B2F5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF0AB4A21318BBB00622AF2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0DF0AB4C21318E9100622AF2 /* StylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylistViewController.swift; sourceTree = "<group>"; };
+		0DF0AB4E21318F0800622AF2 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		0DF0AB5021318F4E00622AF2 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		0DF0AB5221318F9F00622AF2 /* PickupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickupViewController.swift; sourceTree = "<group>"; };
+		45F81ADF1A187334FB7668C0 /* Pods-Kuchikomi Beauty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuchikomi Beauty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kuchikomi Beauty/Pods-Kuchikomi Beauty.release.xcconfig"; sourceTree = "<group>"; };
+		5811304B1993E011AD8C862C /* Pods-Kuchikomi Beauty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kuchikomi Beauty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kuchikomi Beauty/Pods-Kuchikomi Beauty.debug.xcconfig"; sourceTree = "<group>"; };
+		AD13FEA05723A87E504B7A56 /* Pods_Kuchikomi_Beauty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kuchikomi_Beauty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FFE6C7AD8BB788280875EC /* Pods_Kuchikomi_Beauty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +97,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD0D6BB21343BFF003A1575 /* UnderTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0AB4A21318BBB00622AF2 /* HomeViewController.swift */,
+				0DD0D6B321343A92003A1575 /* BagViewController.swift */,
+				0DD0D6B721343ABA003A1575 /* PostCreateViewController.swift */,
+				0DD0D6B521343AA0003A1575 /* AcountViewController.swift */,
+				0DD0D6B921343ACB003A1575 /* LikesViewController.swift */,
+			);
+			name = UnderTabBar;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0DD0D6BC21343C21003A1575 /* HomeViewTopSlideTab */ = {
+			isa = PBXGroup;
+			children = (
+				0DF0AB4E21318F0800622AF2 /* ItemViewController.swift */,
+				0DF0AB4C21318E9100622AF2 /* StylistViewController.swift */,
+				0DF0AB5021318F4E00622AF2 /* TimelineViewController.swift */,
+				0DF0AB5221318F9F00622AF2 /* PickupViewController.swift */,
+			);
+			path = HomeViewTopSlideTab;
+			sourceTree = "<group>";
+		};
 		0DD15E0B213186D900B2F5B4 = {
 			isa = PBXGroup;
 			children = (
+				0DD15E20213186DB00B2F5B4 /* LaunchScreen.storyboard */,
+				0D1380902134B86000AD7FD4 /* Main.storyboard */,
 				0DD15E16213186D900B2F5B4 /* Kuchikomi Beauty */,
 				0DD15E2B213186DB00B2F5B4 /* Kuchikomi BeautyTests */,
 				0DD15E36213186DB00B2F5B4 /* Kuchikomi BeautyUITests */,
 				0DD15E15213186D900B2F5B4 /* Products */,
+				2B88CAEC1D09A495AB768065 /* Pods */,
+				6462FBDAF15924F5476F03E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +148,11 @@
 		0DD15E16213186D900B2F5B4 /* Kuchikomi Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				0DD0D6BB21343BFF003A1575 /* UnderTabBar */,
+				0DD0D6BC21343C21003A1575 /* HomeViewTopSlideTab */,
 				0DD15E17213186D900B2F5B4 /* AppDelegate.swift */,
 				0DD15E19213186D900B2F5B4 /* ViewController.swift */,
-				0DD15E1B213186D900B2F5B4 /* Main.storyboard */,
 				0DD15E1E213186DB00B2F5B4 /* Assets.xcassets */,
-				0DD15E20213186DB00B2F5B4 /* LaunchScreen.storyboard */,
 				0DD15E23213186DB00B2F5B4 /* Info.plist */,
 			);
 			path = "Kuchikomi Beauty";
@@ -125,6 +176,23 @@
 			path = "Kuchikomi BeautyUITests";
 			sourceTree = "<group>";
 		};
+		2B88CAEC1D09A495AB768065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5811304B1993E011AD8C862C /* Pods-Kuchikomi Beauty.debug.xcconfig */,
+				45F81ADF1A187334FB7668C0 /* Pods-Kuchikomi Beauty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6462FBDAF15924F5476F03E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD13FEA05723A87E504B7A56 /* Pods_Kuchikomi_Beauty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DD15E3C213186DB00B2F5B4 /* Build configuration list for PBXNativeTarget "Kuchikomi Beauty" */;
 			buildPhases = (
+				45CEB052ADE105219BC4B309 /* [CP] Check Pods Manifest.lock */,
 				0DD15E10213186D900B2F5B4 /* Sources */,
 				0DD15E11213186D900B2F5B4 /* Frameworks */,
 				0DD15E12213186D900B2F5B4 /* Resources */,
+				D665DD67242A00CEA3000364 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,9 +299,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1380922134B86000AD7FD4 /* Main.storyboard in Resources */,
 				0DD15E22213186DB00B2F5B4 /* LaunchScreen.storyboard in Resources */,
 				0DD15E1F213186DB00B2F5B4 /* Assets.xcassets in Resources */,
-				0DD15E1D213186D900B2F5B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +321,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		45CEB052ADE105219BC4B309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kuchikomi Beauty-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D665DD67242A00CEA3000364 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kuchikomi Beauty/Pods-Kuchikomi Beauty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kuchikomi Beauty/Pods-Kuchikomi Beauty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DD15E10213186D900B2F5B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD0D6BA21343ACB003A1575 /* LikesViewController.swift in Sources */,
+				0DD0D6B821343ABA003A1575 /* PostCreateViewController.swift in Sources */,
 				0DD15E1A213186D900B2F5B4 /* ViewController.swift in Sources */,
+				0DF0AB5321318F9F00622AF2 /* PickupViewController.swift in Sources */,
+				0DF0AB4D21318E9100622AF2 /* StylistViewController.swift in Sources */,
+				0DD0D6B421343A92003A1575 /* BagViewController.swift in Sources */,
+				0DF0AB4F21318F0800622AF2 /* ItemViewController.swift in Sources */,
 				0DD15E18213186D900B2F5B4 /* AppDelegate.swift in Sources */,
+				0DF0AB4B21318BBB00622AF2 /* HomeViewController.swift in Sources */,
+				0DD0D6B621343AA0003A1575 /* AcountViewController.swift in Sources */,
+				0DF0AB5121318F4E00622AF2 /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +413,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DD15E1B213186D900B2F5B4 /* Main.storyboard */ = {
+		0D1380902134B86000AD7FD4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0DD15E1C213186D900B2F5B4 /* Base */,
+				0D1380912134B86000AD7FD4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -428,6 +548,7 @@
 		};
 		0DD15E3D213186DB00B2F5B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5811304B1993E011AD8C862C /* Pods-Kuchikomi Beauty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +567,7 @@
 		};
 		0DD15E3E213186DB00B2F5B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F81ADF1A187334FB7668C0 /* Pods-Kuchikomi Beauty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,20 @@
+PODS:
+  - ESTabBarController (0.2)
+  - XLPagerTabStrip (8.0.1)
+
+DEPENDENCIES:
+  - ESTabBarController
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ESTabBarController
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  ESTabBarController: e82ac0b135bec16fb646ac1da4ac8953fcd927da
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+
+PODFILE CHECKSUM: 2df8c4d5f01d9cbe8eefdc3386d604e63a4e18c0
+
+COCOAPODS: 1.5.3
