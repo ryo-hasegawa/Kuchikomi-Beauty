@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0D1380922134B86000AD7FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D1380902134B86000AD7FD4 /* Main.storyboard */; };
+		0D93B0FA2137BF7C006CDB96 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D93B0F92137BF7C006CDB96 /* GoogleService-Info.plist */; };
+		0D93B1002137E058006CDB96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93B0FF2137E058006CDB96 /* LoginViewController.swift */; };
 		0DD0D6B421343A92003A1575 /* BagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B321343A92003A1575 /* BagViewController.swift */; };
 		0DD0D6B621343AA0003A1575 /* AcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B521343AA0003A1575 /* AcountViewController.swift */; };
 		0DD0D6B821343ABA003A1575 /* PostCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0D6B721343ABA003A1575 /* PostCreateViewController.swift */; };
@@ -45,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		0D1380912134B86000AD7FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D93B0F92137BF7C006CDB96 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0D93B0FF2137E058006CDB96 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0DD0D6B321343A92003A1575 /* BagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewController.swift; sourceTree = "<group>"; };
 		0DD0D6B521343AA0003A1575 /* AcountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcountViewController.swift; sourceTree = "<group>"; };
 		0DD0D6B721343ABA003A1575 /* PostCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCreateViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		0DD15E0B213186D900B2F5B4 = {
 			isa = PBXGroup;
 			children = (
+				0D93B0FF2137E058006CDB96 /* LoginViewController.swift */,
 				0DD15E20213186DB00B2F5B4 /* LaunchScreen.storyboard */,
 				0D1380902134B86000AD7FD4 /* Main.storyboard */,
 				0DD15E16213186D900B2F5B4 /* Kuchikomi Beauty */,
@@ -154,6 +159,7 @@
 				0DD15E19213186D900B2F5B4 /* ViewController.swift */,
 				0DD15E1E213186DB00B2F5B4 /* Assets.xcassets */,
 				0DD15E23213186DB00B2F5B4 /* Info.plist */,
+				0D93B0F92137BF7C006CDB96 /* GoogleService-Info.plist */,
 			);
 			path = "Kuchikomi Beauty";
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D1380922134B86000AD7FD4 /* Main.storyboard in Resources */,
+				0D93B0FA2137BF7C006CDB96 /* GoogleService-Info.plist in Resources */,
 				0DD15E22213186DB00B2F5B4 /* LaunchScreen.storyboard in Resources */,
 				0DD15E1F213186DB00B2F5B4 /* Assets.xcassets in Resources */,
 			);
@@ -347,13 +354,27 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Kuchikomi Beauty/Pods-Kuchikomi Beauty-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CLImageEditor/CLImageEditor.framework",
 				"${BUILT_PRODUCTS_DIR}/ESTabBarController/ESTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImageEditor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D93B1002137E058006CDB96 /* LoginViewController.swift in Sources */,
 				0DD0D6BA21343ACB003A1575 /* LikesViewController.swift in Sources */,
 				0DD0D6B821343ABA003A1575 /* PostCreateViewController.swift in Sources */,
 				0DD15E1A213186D900B2F5B4 /* ViewController.swift in Sources */,

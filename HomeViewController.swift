@@ -18,10 +18,10 @@ class HomeViewController: ButtonBarPagerTabStripViewController{
     }
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-        let StylistVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Stylist")
-        let ItemVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Item")
-        let TimelineVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Timeline")
-        let PickupVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Pickup")
+        let StylistVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Stylist")
+        let ItemVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Item")
+        let TimelineVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Timeline")
+        let PickupVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Pickup")
         let childViewControllers:[UIViewController] = [StylistVC,ItemVC,PickupVC,TimelineVC]
         return childViewControllers
     }

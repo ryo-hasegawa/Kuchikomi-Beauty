@@ -4,6 +4,7 @@ use_frameworks!
 target ‘Kuchikomi Beauty’ do
   pod 'XLPagerTabStrip'
   pod 'ESTabBarController','0.2' 
+  pod "ESTabBarController-swift"
   pod 'Firebase','5.3.0'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
